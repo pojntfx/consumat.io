@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2021-04-28T22:13:56.991Z" agent="5.0 (X11)" etag="G3BlaJPgj93t9ilWtmvV" version="14.6.7" type="google">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="6369" dy="2233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-8" value="package" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1180" y="1360" width="2520" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-7" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1180" y="1100" width="2530" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-6" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1180" y="240" width="2540" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-4" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1180" y="744" width="2540" height="266" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-15" value="Entity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-104" y="1390" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-15" vertex="1">
+          <mxGeometry y="26" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-18" value="+ from_dict(self: object, dict: dict)&#xa;+ to_dict(self: object)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-15" vertex="1">
+          <mxGeometry y="34" width="210" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-19" value="Movie" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-434" y="1550" width="190" height="358" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-20" value="    code: Int&#xa;    title: String&#xa;    genres: list&#xa;    overview: String&#xa;    popularity: Float&#xa;    ratingAverage: Float&#xa;    releaseDate: String&#xa;    runtime: Int&#xa;    status: String&#xa;    backdropPath: String&#xa;    posterPath: String&#xa;    providers: list&#xa;    cast: list &#xa;    directors: list&#xa;    tmdbUrl: String&#xa;    watchStatus: String&#xa;    ratingUser: Float&#xa;    favorite: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-19" vertex="1">
+          <mxGeometry y="26" width="190" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-19" vertex="1">
+          <mxGeometry y="300" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-22" value="+ from_dict(self: object, dict: dict)&#xa;+ to_dict(self: object)&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-19" vertex="1">
+          <mxGeometry y="308" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-23" value="TV" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-220.5" y="1550" width="200" height="378" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-23" vertex="1">
+          <mxGeometry y="26" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-24" value="    code: Int&#xa;    title: String&#xa;    genres: list&#xa;    overview: String&#xa;    popularity: Float&#xa;    ratingAverage: Float&#xa;    firstAirDate: String&#xa;    lastAirDate: String&#xa;    status: String&#xa;    backdropPath: String&#xa;    posterPath: String&#xa;    providers: list&#xa;    creators: list&#xa;    cast: list&#xa;    numberOfEpisodes: Int&#xa;    numberOfSeasons: Int&#xa;    tmdbUrl: String&#xa;    watchStatus: String&#xa;    ratingUser: Float&#xa;    favorite: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-23" vertex="1">
+          <mxGeometry y="34" width="200" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-26" value="+ from_dict(self: object, dict: dict)&#xa;+ to_dict(self: object)&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-23" vertex="1">
+          <mxGeometry y="328" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-27" value="Season" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="6" y="1550" width="190" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-28" value="    code: Int&#xa;    tvCode: Int&#xa;    seasonNumber: Int&#xa;    title: String&#xa;    overview: String&#xa;    posterPath: String&#xa;    watchStatus: String&#xa;    ratingUser: Float&#xa;    favorite: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-27" vertex="1">
+          <mxGeometry y="26" width="190" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-27" vertex="1">
+          <mxGeometry y="160" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-30" value="+ from_dict(self: object, dict: dict)&#xa;+ to_dict(self: object)&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-27" vertex="1">
+          <mxGeometry y="168" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-31" value="Episode" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="216" y="1550" width="190" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-32" value="    code: Int&#xa;    title: String&#xa;    episodeNumber: Int&#xa;    seasonNumber: Int&#xa;    overview: String&#xa;    airDate: String&#xa;    ratingAverage: Float &#xa;    stillPath: String&#xa;    watchStatus: String&#xa;    ratingUser: Float&#xa;    favorite: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-31" vertex="1">
+          <mxGeometry y="26" width="190" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-31" vertex="1">
+          <mxGeometry y="200" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-34" value="+ from_dict(self: object, dict: dict)&#xa;+ to_dict(self: object)&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-31" vertex="1">
+          <mxGeometry y="208" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-38" value="API" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-660" y="295" width="440" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-39" value="+ app: Flask&#xa;+ query: QueryType&#xa;+ tv: ObjectType&#xa;+ season: ObjectType&#xa;+ episode: ObjectType&#xa;+ search: ObjectType&#xa;+ type_defs: str&#xa;+ schema: GraphQLSchema&#xa;+ port: int &#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-38" vertex="1">
+          <mxGeometry y="26" width="440" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-38" vertex="1">
+          <mxGeometry y="170" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-41" value="+ tmdb_client(api_key: str): dict&#xa;+ resolve_movie(*_, code: int, country: str): dict&#xa;+ resolve_tv(*_, code: int, country: str): dict&#xa;+ resolve_season(*_, code: int, seasonNumber: str): dict&#xa;+ resolve_episode(*_, code: int, seasonNumber: int, espisodeNumber: int): dict&#xa;+ resolve_search(*_, keyword: str): dict&#xa;+ graphql_playground(): str&#xa;+ graphql_ server(): str&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-38" vertex="1">
+          <mxGeometry y="178" width="440" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-42" value="DB" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-110" y="400" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-43" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-42" vertex="1">
+          <mxGeometry y="26" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-42" vertex="1">
+          <mxGeometry y="52" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-45" value="+ cache(self: object, query: str, body: str): None&#xa;+ is_cached(self: object, query: str): bool&#xa;+ get_from_cache(self: object, query: str): str&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-42" vertex="1">
+          <mxGeometry y="60" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-46" value="TMDB" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="350" y="343" width="510" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-46" vertex="1">
+          <mxGeometry y="26" width="510" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-49" value="+ get_movie_details(self: object, movie_id: int): dict&#xa;+ get_movie_providers(self: object, movie_id: int, country: str): dict&#xa;+ get_movie_images(self: object, movie_id: int): dict&#xa;+ get_movie_credits(self: object, movie_id: int): dict&#xa;+ get_tv_details(self: object, tv_id: int): dict&#xa;+ get_tv_providers(self: object, tv_id: int, country: str): dict&#xa;+ get_tv_images(self: object, tv_id: int): dict&#xa;+ get_tv_credits(self: object, tv_id: int): dict&#xa;+ get_season_details(self: object, tv_id: int, season_number: int): dict&#xa;+ get_season_images(self: object, tv_id: int, season_number: int): dict&#xa;+ get_episode_details(self: object, tv_id: int, season_number: int, episode_number: int): dict&#xa;+ get_search(self: object, keyword: str): dict&#xa;+ get_data(self: object, query: str, db: object): dict&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-46" vertex="1">
+          <mxGeometry y="34" width="510" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-62" value="MovieGateways" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-590" y="840" width="300" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-62" vertex="1">
+          <mxGeometry y="26" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-65" value="+ movie_credits_to_dict(data: dict): dict&#xa;+ movie_details_to_dict(data: dict): dict&#xa;+ movie_images_to_dict(data: dict): dict&#xa;+ movie_providers_to_dict(data: dict, country: str): dict&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-62" vertex="1">
+          <mxGeometry y="34" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-66" value="SeasonGateways" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="350" y="865" width="300" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-66" vertex="1">
+          <mxGeometry y="26" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-69" value="+ season_details_to_dict(data: dict, tv_id: int): dict&#xa;+ season_images_to_dict(data: dict): dict&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-66" vertex="1">
+          <mxGeometry y="34" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-70" value="TVGateways" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-140" y="802" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-70" vertex="1">
+          <mxGeometry y="26" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-73" value="+ tv_credits_to_dict(data: dict): dict&#xa;+ tv_details_to_dict(data: dict): dict&#xa;+ tv_images_to_dict(data: dict): dict&#xa;+ tv_provider_to_dict(data: dict, country: str): dict&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-70" vertex="1">
+          <mxGeometry y="34" width="290" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-74" value="EpisodeGateways" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="790" y="864" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-76" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-74" vertex="1">
+          <mxGeometry y="26" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-77" value="+ episode_details_to_dict(data: dict): dict&#xa;+ episode_images_to_dict(data: dict): dict&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uWVhCqwz5MI_Uizmh1ha-74" vertex="1">
+          <mxGeometry y="34" width="460" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-79" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uWVhCqwz5MI_Uizmh1ha-19" target="uWVhCqwz5MI_Uizmh1ha-18" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-324" y="1510" as="sourcePoint" />
+            <mxPoint x="-164" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-80" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-114" y="1550" as="sourcePoint" />
+            <mxPoint x="1" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-81" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uWVhCqwz5MI_Uizmh1ha-27" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-254" y="1570" as="sourcePoint" />
+            <mxPoint x="16" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uWVhCqwz5MI_Uizmh1ha-82" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.578;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uWVhCqwz5MI_Uizmh1ha-31" target="uWVhCqwz5MI_Uizmh1ha-18" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="108.63999999999987" y="1556.6460000000002" as="sourcePoint" />
+            <mxPoint x="15.999999999999545" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-0" value="TVDetails" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-235" y="1180" width="433" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="qh6ji308MUL-H0X1kXke-0" vertex="1">
+          <mxGeometry y="26" width="433" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-3" value="+ get_tv_details(self: object, tmdb: object, code: int, country: str): dict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qh6ji308MUL-H0X1kXke-0" vertex="1">
+          <mxGeometry y="34" width="433" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-4" value="SeasonDetails" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="225" y="1180" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="qh6ji308MUL-H0X1kXke-4" vertex="1">
+          <mxGeometry y="26" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-7" value="+ get_season_details(self: object, tmdb: object, code: int, season_number: int): dict " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qh6ji308MUL-H0X1kXke-4" vertex="1">
+          <mxGeometry y="34" width="460" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-8" value="EpisodeDetails" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="740" y="1180" width="583" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="qh6ji308MUL-H0X1kXke-8" vertex="1">
+          <mxGeometry y="26" width="583" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-11" value="+ get_episode_details(self: object, tmdb: object, code: int, season_number: int, episode_number: int): dict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qh6ji308MUL-H0X1kXke-8" vertex="1">
+          <mxGeometry y="34" width="583" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-12" value="MovieDetails" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-670" y="1180" width="400" height="64" as="geometry">
+            <mxRectangle x="720" y="585" width="110" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="qh6ji308MUL-H0X1kXke-12" vertex="1">
+          <mxGeometry y="26" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-15" value="+ get_movie_details(self: object, tmdb: object, code: int, country: str): dict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qh6ji308MUL-H0X1kXke-12" vertex="1">
+          <mxGeometry y="34" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-16" value="SearchDetails" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1130" y="1180" width="400" height="64" as="geometry">
+            <mxRectangle x="720" y="585" width="110" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="qh6ji308MUL-H0X1kXke-16" vertex="1">
+          <mxGeometry y="26" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qh6ji308MUL-H0X1kXke-18" value="+ get_search_details(self: object, tmdb: object, keyword: str): dict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qh6ji308MUL-H0X1kXke-16" vertex="1">
+          <mxGeometry y="34" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-1" value="SearchGateway" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1030" y="857" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="EFvsAPgmHx5xiLFw8ML8-1">
+          <mxGeometry y="26" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-3" value="+ search_result_to_dict(data: dict): dict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFvsAPgmHx5xiLFw8ML8-1">
+          <mxGeometry y="34" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-9" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.464;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.464;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-0.44000000000005457" y="660.4200000000001" as="sourcePoint" />
+            <mxPoint x="-0.44000000000005457" y="758.364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-10" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.469;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-0.9199999999997814" y="1009.9999999999999" as="sourcePoint" />
+            <mxPoint x="-1" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-11" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.469;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="0.09999999999992326" y="1290" as="sourcePoint" />
+            <mxPoint y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-12" value="&lt;div&gt;External&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1170" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-13" value="&lt;div&gt;Gateways&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1164" y="770" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-14" value="&lt;div&gt;Usecases&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1160" y="1120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFvsAPgmHx5xiLFw8ML8-15" value="Entities" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1170" y="1380" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
